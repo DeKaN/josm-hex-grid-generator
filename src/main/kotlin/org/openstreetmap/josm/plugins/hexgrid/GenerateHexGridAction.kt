@@ -35,6 +35,11 @@ class GenerateHexGridAction : JosmAction(
                 selectedArea,
                 Geometry.getArea(it.nodes)
             ) != Geometry.PolygonIntersection.OUTSIDE
+        }.onEachIndexed { index, way ->
+            way.apply {
+                put("building", "yes")
+                put("ref", (index + 1).toString())
+            }
         }.toList()
         val commands = hexGridWays.asSequence().flatMap { w ->
             w.nodes.distinctBy { it.uniqueId }.map { AddCommand(dataset, it) } + AddCommand(dataset, w)
