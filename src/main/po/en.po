@@ -1,0 +1,43 @@
+# Translations for the JOSM plugin 'hexgrid-generator' (en)
+# Copyright (C) 2021
+# This file is distributed under the same license as the josm-plugin_hexgrid-generator package.
+# FIRST AUTHOR, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: josm-plugin_hexgrid-generator 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-04 16:57+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Add hexgrid"
+msgstr "Add hexgrid"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Cell side:"
+msgstr "Cell side:"
+
+msgid "Generate hexgrid for area"
+msgstr "Generate hexgrid for area"
+
+msgid "Enter hexagon cell side length"
+msgstr "Enter hexagon cell side length"
+
+msgid "Generate hexgrid"
+msgstr "Generate hexgrid"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "kilometers"
+msgstr "kilometers"
+
+msgid "JOSM plugin for generating hexgrid"
+msgstr "JOSM plugin for generating hexgrid"
